@@ -1,0 +1,28 @@
+{
+  "name": "ai-video-generator-mobile",
+  "version": "1.0.0",
+  "description": "Mobile APK version of AI Video Generator",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build-apk": "eas build --platform android --profile preview",
+    "build-release": "eas build --platform android --profile release",
+    "submit-apk": "eas submit --platform android"
+  },
+  "dependencies": {
+    "expo": "^51.0.0",
+    "expo-camera": "^14.1.0",
+    "expo-image-picker": "^15.0.0",
+    "expo-file-system": "^17.0.0",
+    "react": "^18.2.0",
+    "react-native": "0.74.0",
+    "axios": "^1.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0"
+  },
+  "private": true
+}
